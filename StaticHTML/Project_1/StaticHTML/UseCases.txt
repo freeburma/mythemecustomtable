@@ -12,9 +12,9 @@ WordPress Theme Development with Custom Table
         1.4.1 [DONE] Create the detail card as the design 
 
 2. WordPress Theme Development
-    2.1 Convert Header 
-    2.2 Convert Footer 
-    2.3 Add the Body 
+    2.1 Convert Header  [DONE]
+    2.2 Convert Footer [DONE]
+    2.3 Add the Body [DONE]
     2.4 Add the Detail page 
     2.5 Create the Custom Table called "Products"
         2.5.1 ID, Title, Description, ImageURL, FileName 

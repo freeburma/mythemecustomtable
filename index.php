@@ -22,7 +22,7 @@
             <!-- card 2-->
             <div class="col-md-4">
                 <div class="card" >
-                    <img class="card-img-top" src="<?php echo get_template_directory_uri() . './images/IMG_4708.JPG' ?>" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="<?php echo get_theme_file_uri() . './images/IMG_4708.JPG' ?>" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Mini Cooper</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod vero doloremque quas? Dolores sed explicabo sapiente a alias impedit.</p>
@@ -34,7 +34,7 @@
             <!-- card 3-->
             <div class="col-md-4">
                 <div class="card" >
-                    <img class="card-img-top" src="<?php echo get_template_directory_uri() . './images/IMG_4717.JPG' ?>"  alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="<?php echo get_theme_file_uri() . './images/IMG_4717.JPG' ?>"  alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Lamborghini</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod vero doloremque quas? Dolores sed explicabo sapiente a alias impedit.</p>
@@ -46,7 +46,7 @@
             <!-- card 4-->
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="<?php echo get_template_directory_uri() . './images/IMG_4919.JPG' ?>" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="<?php echo get_theme_file_uri() . './images/IMG_4919.JPG' ?>" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Covertte</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod vero doloremque quas? Dolores sed explicabo sapiente a alias impedit.</p>
@@ -58,7 +58,7 @@
             <!-- card 5-->
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="<?php echo get_template_directory_uri() . './images/IMG_5537.JPG' ?>" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="<?php echo get_theme_file_uri() . './images/IMG_5537.JPG' ?>" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Holden Corolado</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod vero doloremque quas? Dolores sed explicabo sapiente a alias impedit.</p>
@@ -70,7 +70,7 @@
             <!-- card 6 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="<?php echo get_template_directory_uri() . './images/IMG_5555.JPG' ?>" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="<?php echo get_theme_file_uri() . './images/IMG_5555.JPG' ?>" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Range Rover Discovery</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod vero doloremque quas? Dolores sed explicabo sapiente a alias impedit.</p>
@@ -82,7 +82,7 @@
             <!-- card 7-->
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="<?php echo get_template_directory_uri() . './images/IMG_4972.JPG' ?>" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="<?php echo get_theme_file_uri() . './images/IMG_4972.JPG' ?>" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Monster Track</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod vero doloremque quas? Dolores sed explicabo sapiente a alias impedit.</p>
@@ -94,7 +94,7 @@
             <!-- card 8-->
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="<?php echo get_template_directory_uri() . './images/IMG_4714.JPG' ?>" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="<?php echo get_theme_file_uri() . './images/IMG_4714.JPG' ?>" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Ducati</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod vero doloremque quas? Dolores sed explicabo sapiente a alias impedit.</p>
@@ -106,7 +106,7 @@
             <!-- card 9-->
             <div class="col-md-4">
                 <div class="card">
-                    <img class="card-img-top" src="<?php echo get_template_directory_uri() . './images/IMG_5511.JPG' ?>" alt="Card image" style="width:100%">
+                    <img class="card-img-top" src="<?php echo get_theme_file_uri() . './images/IMG_5511.JPG' ?>" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title">Yamaha YZF R3</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod vero doloremque quas? Dolores sed explicabo sapiente a alias impedit.</p>
