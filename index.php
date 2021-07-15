@@ -27,7 +27,7 @@
                                 <img class="card-img-top" src="<?php echo get_template_directory_uri() . "/" . $prod->FilePath . "/" . $prod->ImageName_1; ?>" alt="Card image" style="width:100%">
                                 <div class="card-body">
                                     <h4 class="card-title"> <?php echo $prod-> Title; ?> </h4>
-                                    <p class="card-text"><?php echo $prod->ProductDescription; ?></p>
+                                    <p class="card-text"><?php echo wp_trim_words($prod->ProductDescription, 50, ' ...'); ?></p>
                                     <a href="#" class="btn btn-primary">Detail</a>
                                 </div>
                             </div><!--End card -->
