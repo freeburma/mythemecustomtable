@@ -28,7 +28,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title"> <?php echo $prod-> Title; ?> </h4>
                                     <p class="card-text"><?php echo wp_trim_words($prod->ProductDescription, 50, ' ...'); ?></p>
-                                    <a href="#" class="btn btn-primary">Detail</a>
+                                    <a href="<?php echo esc_url(site_url( '/detail')) . "?id=" . $prod->Id ?>" class="btn btn-primary">Detail</a>
                                 </div>
                             </div><!--End card -->
                     </div> <!-- End Col-->
