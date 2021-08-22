@@ -42,9 +42,6 @@
 
     <br />
     
-    <div class="row">
-        <a href="<?php echo esc_url(site_url( '/')) ?>" class="btn btn-text">Home</a>
-    </div>
 
     
 </div><!-- End Container -->
