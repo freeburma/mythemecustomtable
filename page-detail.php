@@ -24,22 +24,29 @@
 ?>
 
 <div class="container bodyHeight">
-    <h2>Detail Page</h2>
-
+    <div class="row justify-content-center align-items-center">
+        <h4 class="detail-heading"><?php echo $prod-> Title; ?></h4>
+    </div>
     <!-- Cards -->
     <div class="row">
-        <div class="col-md-12">
-                <div class="card" >
-                    <img class="card-img-top" src="<?php echo get_template_directory_uri() . "/" . $prod->FilePath . "/" . $prod->ImageName_1; ?>" alt="Card image" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title"> <?php echo $prod-> Title; ?> </h4>
-                        <p class="card-text"><?php echo wp_trim_words($prod->ProductDescription, 50, ' ...'); ?></p>
-                        <a href="<?php echo esc_url(site_url( '/')) ?>" class="btn btn-text">Home</a>
-                    </div>
-                </div><!--End card -->
-        </div> <!-- End Col-->
+        <div class="flex-container-detail">
+            <div class="imageDetail">
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . "/" . $prod->FilePath . "/" . $prod->ImageName_1; ?>" alt="Card image" style="width:100%">
+            </div>
 
+            <div class="description">
+                <p class="card-text"><?php echo $prod->ProductDescription; ?></p>
+            </div>
+        </div> <!-- End Col-->
     </div><!-- End row -->
+
+    <br />
+    
+    <div class="row">
+        <a href="<?php echo esc_url(site_url( '/')) ?>" class="btn btn-text">Home</a>
+    </div>
+
+    
 </div><!-- End Container -->
 
 <?php get_footer(); ?>
