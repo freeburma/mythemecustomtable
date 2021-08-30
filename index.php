@@ -10,9 +10,13 @@
             <?php 
                 global $wpdb; 
 
-                $productsFromDbQuery = $wpdb->prepare(" SELECT * FROM wp_custom_inventory"); 
+                $productsFromDbQuery = $wpdb->prepare(" SELECT * FROM wp_custom_inventory", null); 
 
                 $productsFromDb = $wpdb->get_results($productsFromDbQuery); 
+
+                
+
+                // $productsFromDb = $wpdb->get_results("SELECT * FROM wp_custom_inventory"); // SOlved: Warning: Undefined array key 0 in C:\xampp\htdocs\tutorial\wp-includes\wp-db.php on line 1323 
 
                 
             ?>
