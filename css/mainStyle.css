@@ -13,8 +13,8 @@ h1
 
 .container.bodyHeight
 {
-    height: calc(100% - 120px);
-
+    /* height: calc(100% - 120px); */
+    min-height: calc(100vh - 176px); 
 }
 
 .card 
@@ -108,10 +108,10 @@ Footer
 
 /*
 ================================================================================
-Responsive  
+Responsive  Verticel
 ================================================================================
 */
-@media (max-height: 768px)
+@media (max-height: 768px) /* Verticle */
 {
     .container.bodyHeight
     {
@@ -128,6 +128,12 @@ Responsive
     }
 }
 
+
+/*
+================================================================================
+Responsive  Horizontal
+================================================================================
+*/
 @media (max-width: 1024px)  /* iPad pro */
 {
     
@@ -151,6 +157,17 @@ Responsive
     
 }
 
+@media (max-width: 991px)  /*  */
+{
+    .card 
+    {
+        /* display: block; */
+        height: 775px;
+        margin-bottom: 5px;
+    }
+}
+
+
 @media (max-width: 768px) /* iPad */
 {
     
@@ -168,6 +185,12 @@ Responsive
         margin-bottom: 20px;
         box-shadow: 0;
 
+    }
+
+    .btn-primary 
+    {
+        position: relative;
+        bottom: unset;
     }
 
     .footer-copyright-container
